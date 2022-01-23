@@ -37,7 +37,9 @@ p{
 }
 
 img{
-    width: 400px;
+    width: 500px;
+    margin-top: -70px;
+    border-radius: 10px;
 }
 
 .content{
@@ -65,8 +67,6 @@ img{
     height: 160px;
     margin-left: auto;
     margin-right: 200px;
-    background: rgb(126, 126, 126);
-    text-align: center;
 }
 
 .button{
