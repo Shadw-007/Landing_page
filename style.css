@@ -96,7 +96,7 @@ h2{
     justify-content: center;
     text-align: center;
     margin-bottom: 80px;
-    gap: 55px
+    gap: 45px;
     
 }
 
@@ -105,13 +105,42 @@ h2{
 }
 
 .pic{
-    display: flex;
     width: 200px;
     padding-top: 90px;
     padding-bottom: 10px;
 
 }
 
+
+/*********** Section Three ***********/
+
+.quote{
+    background: lightgray;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    padding-top: 60px;
+    padding-bottom: 20px;
+}
+
+.quote div{
+    max-width: 900px;
+    font-size: 24px;
+    font-family: 'Courier New', Courier;
+    font-weight: 100;
+    font-style: italic;
+}
+
+.name{
+    padding: 0;
+    font-size: 18px;
+    font-weight: 700;
+    margin-top: 2px;
+    margin-left: auto;
+    margin-right: 260px;
+}
 
 
 
