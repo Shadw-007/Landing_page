@@ -181,3 +181,19 @@ h2{
     margin-right: 50px;
 }
 
+.end{
+    background: rgb(5, 35, 56);
+    display: flex;
+    flex-direction: column;
+}
+
+.footer{
+    text-align: center;
+    color: white;
+}
+
+.end .footer{
+    flex: 1 1 auto;
+    margin: 40px;
+}
+
